@@ -1,0 +1,27 @@
+/*=== btn ====*/
+.navbar-expand-lg .header-button {
+    color: $white !important;
+    font-size:$font-size-14;
+    font-weight: $font-weight-bold;
+    line-height: 20px;
+    background: $button-color;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+.intro_title a.button_intro {
+  border: none;
+  color: $white;
+  font-family:$font-family;
+  font-size: $font-size-18;
+  font-weight: $font-weight-medium;
+  background: $button-color;
+  cursor: pointer;
+  padding: 15px 25px;
+  display: inline-block;
+  outline: none;
+  text-align: center;
+  line-height: 24px;
+  @include border-radius(4px);
+  text-transform: uppercase;
+  min-width: 150px;
+}
