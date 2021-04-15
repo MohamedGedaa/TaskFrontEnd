@@ -1,0 +1,56 @@
+/* Start Our Team Style  */
+.our-team {
+	background-color: #f3f3ff;
+	.title {
+		color: $text-color;
+		font-family: $font-family;
+		font-size: $font-size-50;
+		font-weight: $font-weight-bold;
+		line-height: 60px;
+	}
+	.card-img {
+		img {
+			@include border-top-radius (4px);
+		}
+	}
+	.card-body {
+		background-color: $white;
+		@include border-bottom-radius (4px);
+	}
+	.card-title {
+		color: $text-color;
+		font-family: $font-family;
+		font-size: $font-size-20;
+		line-height: 26px;
+		font-weight: bold;
+	}
+	.card-subtitle {
+		color: $text-color;
+		font-family: $font-family;
+		font-size: $font-size-20;
+		line-height: 26px;
+		font-weight: normal;
+	}
+	.card-number {
+		color: $button-color;
+		font-family: $font-family;
+		font-size: $font-size-20;
+		font-weight: $font-weight-bold;
+		line-height: 20px;
+	}
+	.card-email {
+		color: $button-color;
+		font-family: $font-family;
+		font-size: $font-size-20;
+		font-weight: $font-weight-bold;
+		line-height: 20px;
+	}
+	.card-socila {
+		color: $button-color;
+		font-family: $font-family;
+		font-size: $font-size-20;
+		font-weight: $font-weight-bold;
+		line-height: 20px;
+	}
+}
+/* End  Our Team Style  */
