@@ -1,0 +1,50 @@
+/* Start intro Section Style */
+.intro {
+	position: relative;
+	height: 600px;
+	background: #4d536d url(../images/hero_img.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	text-transform: uppercase;
+	display: table;
+	.intro_title {
+		display: table-cell;
+		vertical-align: middle;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.6);
+		text-align: center;
+		h3 {
+			font-size: $font-size-66;
+			margin-bottom: 5px;
+			color: $white;
+			font-weight: $font-weight-bold;
+			text-transform: capitalize;
+			line-height: 80px;
+		}
+		p {
+			font-size: $font-size-18;
+			color: $white;
+			font-weight: $font-weight-normal;
+			line-height: 30px;
+		}
+		a.button_intro {
+			border: none;
+			color: $white;
+			font-family: $font-family;
+			font-size: $font-size-18;
+			font-weight: $font-weight-medium;
+			background: $button-color;
+			cursor: pointer;
+			padding: 15px 25px;
+			display: inline-block;
+			outline: none;
+			text-align: center;
+			line-height: 24px;
+			@include border-radius(4px);
+			text-transform: uppercase;
+			min-width: 150px;
+		}
+	}
+}
+
+/* End  intro Section Style */
