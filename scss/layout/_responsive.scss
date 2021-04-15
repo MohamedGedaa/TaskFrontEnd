@@ -1,0 +1,112 @@
+
+/* // Extra  devices (portrait phones, less than 576px) */
+/*  No media query for `xs` since this is the default in Bootstrap */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .navbar-expand-lg {
+		.navbar-collapse {
+			display: flex !important;
+			flex-basis: auto;
+		}
+		.navbar-nav {
+			flex-direction: row !important;
+		}
+	}
+	.nav-link {
+		span {
+			display: none !important;
+		}
+	}
+	.header-button {
+		span {
+			display: none !important;
+		}
+	}
+	.navbar {
+		padding: 0.5rem;
+	}
+	.intro_title {
+		h3 {
+			font-size: $font-size-38;
+			line-height: 50px;
+		}
+	}
+	.our-team {
+		.title {
+			font-size: $font-size-30;
+			line-height: 40px;
+		}
+	}
+	.Typography {
+		h3 {
+			font-size: $font-size-28;
+		}
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+    .navbar-expand-lg {
+		.navbar-collapse {
+			display: flex !important;
+			flex-basis: auto;
+		}
+		.navbar-nav {
+			flex-direction: row !important;
+		}
+	}
+	.intro_title {
+		h3 {
+			font-size: $font-size-50;
+			line-height: 50px;
+		}
+	}
+	.our-team {
+		.title {
+			font-size: $font-size-30;
+			line-height: 40px;
+		}
+	}
+	.Typography {
+		h3 {
+			font-size: $font-size-28;
+			line-height: 48px;
+		}
+	}
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .intro_title {
+		text-align: left !important;
+		h3 {
+			width: 60% !important;
+		}
+		p {
+			width: 60% !important;
+		}
+	}
+ }
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .intro_title {
+		h3 {
+			font-size: $font-size-66;
+			line-height: 80px;
+		}
+	}
+	.our-team {
+		.title {
+			font-size: $font-size-50;
+			line-height: 60px;
+		}
+	}
+	.Typography {
+		h3 {
+			font-size: $font-size-38;
+			line-height: 48px;
+		}
+	}
+}
